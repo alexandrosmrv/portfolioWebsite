@@ -1,0 +1,446 @@
+html{
+  scroll-behavior:smooth!important;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+ 
+}
+h1 {
+  color: rgb(9, 61, 173);
+  font-size: 3;
+  
+}
+.theh1js {
+  font-size: 10rem;
+}
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: rgb(9, 61, 173);
+  font-weight: 400;
+  margin: 10px 650px;
+  font-size: 1.6rem;
+}
+h3 {
+  color: rgb(9, 61, 173);
+  font-size: 2rem;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+  color: rgb(9, 61, 173);
+  font-size: 1.25rem;
+}
+
+/* NAVIGATION MENU CSS */
+
+.nav-itemjs{
+  text-decoration: underline #606163;
+  
+  }
+  
+/* Header-container CSS */
+.im1,.im2 {
+  font-size: 3.2rem;
+  color: rgb(9, 61, 173);
+  
+}
+
+.top-container {
+  background-image: url("../photos/river-clouds-sky-hd-wallpapers.jpg");
+  background-color: #cccccc;
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  margin-bottom: 10rem;
+ }
+.textcontainer{
+  
+text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dev1,.dev2{
+  color: rgb(9, 61, 173);
+  font-size: 1.4rem;
+  
+}
+.devjs{
+   color: #faf8f8;
+}
+.logo{
+  height: 9rem;
+  width: 9rem;
+  padding: 1rem;
+}
+
+/* Intro Container CSS */
+.introparent1,.introparent3{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+padding-bottom: 4rem;
+}
+.introparent2{
+display: flex;
+flex-direction: row;
+flex-wrap:wrap-reverse;
+justify-content: flex-end;
+padding-bottom: 4rem;
+}
+
+.introimg1,.introimg2,.introimg3{
+  max-width: 100%;
+  height: auto;
+}
+.introchild2,.introchild3,.introchild6{
+  padding: 2rem;
+}
+.introparent3{
+  margin-bottom: 10rem;
+}
+.introh1,.introp{
+  color: rgb(9, 61, 173);
+}
+
+
+
+/* Mid Container Css */
+  .theMidContainer{
+  padding-top: 2rem;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  gap: 1.8rem;
+  text-align: center;
+  margin-bottom: 15rem;
+  }
+  .midphotos1,.midphotos2,.midphotos3{
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+    margin-bottom: 2rem;
+    
+    }
+    .midphotos1:hover{
+      transform: scale(1.1); 
+      transition-duration: 1s;
+    }
+    .midphotos2:hover{
+      transform: scale(1.1); 
+      transition-duration: 1s;
+    }
+    .midphotos3:hover{
+      transform: scale(1.1); 
+      transition-duration: 1s;
+    }
+
+    
+
+/* Footer section Css*/
+ .footer-container {
+  text-align: center;
+  background-color: rgb(186, 190, 190);
+  padding: 1.5rem 2rem 4rem;
+  
+}
+.endSection{
+  padding-top: 1rem;
+  height: fit-content;
+  width: auto;
+  background-color: #e3f2fd;;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border-top: 1px solid grey;
+}
+  .links-ab,.links-ab2{
+  text-decoration:none;
+  font-size: 1rem;
+  color:rgb(30, 7, 112);
+  }
+  .links-ab2{
+color:rgb(30, 7, 112);
+  }
+
+  .linkHeader,.h4border1{
+    text-decoration: none;
+    color:rgb(30, 7, 112);
+  }
+  footer{
+    font-size: x-small;
+    text-align: center;
+  }
+  .h4border{
+  border-bottom: 1px solid grey;
+  text-decoration: none;
+  color:rgb(9, 61, 173);
+  }
+
+  /* <!-- Cards demo section CSS--> */
+#price{
+  font-family: 'Raleway', sans-serif;
+  height: fit-content;
+  width: auto;
+  padding: 4rem;
+  margin-bottom: 10rem;
+  
+}
+.changecolorjs{
+  color: rgb(11, 127, 243);
+}
+.card-header{
+  height:4rem;
+ 
+  }
+.backgroundcolorchange{
+  background: linear-gradient(0.25turn, #93b3ee, #f2f3f5, #72aef3);
+  }
+
+  /* CArousel CSS */
+.caroutest,.carouselText{
+  text-align: center;
+}
+.carousel-img{
+  box-shadow: 20px 20px 20px grey;
+  margin:2rem 0 2rem 0 ;
+  margin-bottom: 10rem;
+ }
+
+/* Contact Page */
+
+.contactChild1,.contactChild2,.contactChild3{
+  padding: 1.1rem;
+  }
+input, textarea{
+  border:none;
+  border-bottom: 1px solid gray;
+  flex-wrap: wrap;
+  
+}
+.contactContainer{
+margin: 2rem 0 10rem 2rem;
+}
+.contactButton{
+  margin: 1rem;
+  height: fit-content;
+  width: fit-content;
+  border: none;
+  border-radius: 20px;
+  border-bottom: 1px solid grey;
+  box-shadow: 1px 1px 10px 1px #93b3ee;
+}
+.contactButton:hover{
+  background-color: #93b3ee;
+  color: white;
+}
+
+
+.links-a {
+  color: #0D4C92;
+  font-family: 'Raleway', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.links-a-js{
+  border-collapse: collapse;
+  background-color:#357a86;
+  border-radius: 20px;
+  color: #DEF5E5;
+}
+.just{
+  font-size: 1.5rem;
+}
+
+
+
+/* About page */
+
+.about{
+  margin-top: 4rem;
+  padding: 0.5px;
+  margin-bottom: 4rem;
+  border-radius: 50px;
+  height: auto;
+  width: auto;
+}
+.h1-about{
+  text-align: center;
+}
+.aboutParent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap:2rem 1rem;
+  text-align: center;
+  background: linear-gradient(0.25turn, #93b3ee, #f2f3f5, #72aef3);
+  height: auto;
+  width: auto;
+  box-shadow: 10px black;
+  margin-bottom: 12rem;
+  }
+  .aboutChilds1,.aboutChilds2,.aboutChilds3{
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px grey;
+    padding: 1rem;
+    background-color: whitesmoke;
+    margin: 4rem 0 4rem 0;
+    
+  }
+
+.about_list{
+  font-family: 'Raleway', sans-serif;
+  color: #001253;
+  font-size: 1.25rem;
+
+}
+
+
+.videoplay{ 
+  text-align: center;
+ 
+}
+.videoplaychild{
+  width: 78%    !important;
+  height: auto   !important;
+  margin-bottom: 15rem;
+}
+
+/* THE MODAL T */
+/* The Modal (background) */
+.modal, .modal1, .modal2{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  
+  }
+
+/* Modal Content */
+.modal-content1, .modal-content2,.modal-content1{
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  text-align: center;
+  }
+
+/* The Close Button */
+.close,.close1,.close2{
+  color: #6d6868;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close1:hover,
+.close1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close2:hover,
+.close2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* REPOSITOPRIES PAGE */
+/* 
+.paralax effect */
+.repoh1{
+  text-align: center;
+  height: fit-content;
+  margin: 5rem 0 1rem 0;
+  padding: 0;
+}
+.paralax {
+  background-image:url("../photos/space\ grey.jpg");
+  min-height: 600px;
+  min-width: 100px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5rem 0 10rem 0;
+  }
+.paralaxParent{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5rem;
+  padding: 3% 0 5% ;
+  
+  
+}
+.paralax1, .paralax2, .paralax3, .paralax4, .paralax5, .paralax6, .paralax7, .paralax8{
+  padding: 0.5rem;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px;
+  }
+  
+ .paralax1:hover,.paralax2:hover, .paralax3:hover, 
+.paralax4:hover, .paralax5:hover, .paralax6:hover, 
+.paralax7:hover, .paralax8:hover
+{
+  transform: scale(1.1); 
+  transition-duration: 1s;
+}
+.imgparalax{
+  height: fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  
+}
+
+
+/* @MEDIA BREAK POINTS  */
+
+/* lARGE MONITORS
+@media(max-width:1660px) {
+  h2{
+  margin: 0 100px;
+  text-align: center;
+}
+
+}
+/* MEDIUM SIZE MONITORS */
+/* @media(max-width:1189px){
+  .text{float: none;}
+} */
+
+/* SMALL SIZE MONITORS */
+/* @media(max-width:740px){
+ 
+  .carousel-img{
+  width: 400px;
+  height: 300px;
+}
+.hi{
+  padding-left: 250px;
+} */
+ 
