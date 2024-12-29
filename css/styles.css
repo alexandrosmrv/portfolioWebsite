@@ -8,7 +8,7 @@ body {
  
 }
 h1 {
-  color: rgb(9, 61, 173);
+  color: #2E3A59;
   font-size: 3;
   
 }
@@ -23,13 +23,22 @@ h2 {
   font-size: 1.6rem;
 }
 h3 {
-  color: rgb(9, 61, 173);
+  color: #2E3A59;;
   font-size: 2rem;
 }
 p {
   font-family: 'Raleway', sans-serif;
-  color: rgb(9, 61, 173);
+  color: #2E3A59;
   font-size: 1.25rem;
+}
+.underLine{
+  text-decoration: underline solid #404c72 5%;
+
+}
+.changeTheColor{
+  color: rgb(36, 36, 80);
+  text-decoration: underline
+  
 }
 
 /* NAVIGATION MENU CSS */
@@ -42,31 +51,31 @@ p {
 /* Header-container CSS */
 .im1,.im2 {
   font-size: 3.2rem;
-  color: rgb(9, 61, 173);
+  color: #2E3A59;
   
 }
 
 .top-container {
-  background-image: url("../photos/river-clouds-sky-hd-wallpapers.jpg");
+  background-image: url("/photos/pexels.jpg");
   background-color: #cccccc;
-  height: 80vh;
+  height: 90vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   text-align: center;
+  margin-top: 10rem;
   margin-bottom: 10rem;
  }
 .textcontainer{
-  
-text-align: center;
+  text-align: center;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .dev1,.dev2{
-  color: rgb(9, 61, 173);
+  color: #2E3A59;
   font-size: 1.4rem;
   
 }
@@ -96,8 +105,15 @@ padding-bottom: 4rem;
 }
 
 .introimg1,.introimg2,.introimg3{
-  max-width: 100%;
-  height: auto;
+  height: auto;        
+      width: 100%;        
+      max-width: 100%;    
+      min-width: 150px;    
+      max-height: 500px;   
+      min-height: 100px;   
+      object-fit: cover; 
+      opacity: 1;  
+      transition: .5s ease;
 }
 .introchild2,.introchild3,.introchild6{
   padding: 2rem;
@@ -106,7 +122,37 @@ padding-bottom: 4rem;
   margin-bottom: 10rem;
 }
 .introh1,.introp{
-  color: rgb(9, 61, 173);
+  color: #2E3A59;
+}
+
+.buttonconteiner{
+display: flex;
+flex-direction:row-reverse 
+}
+
+.myButton {
+	background-color:rgb(91, 192, 222);
+	border-radius:28px;
+	border:1px solid rgb(91, 192, 222);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	padding:15px 60px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+  transition: transform 0.8s ease;
+}
+.myButton:hover {
+	border-color:#476e9e;
+  transform: scale(1.1);
+  }
+
+.myButton:active {
+	position:relative;
+	top:1px;
+ 
 }
 
 
@@ -154,7 +200,7 @@ padding-bottom: 4rem;
   padding-top: 1rem;
   height: fit-content;
   width: auto;
-  background-color: #e3f2fd;;
+  background-color: #2E3A59;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -163,15 +209,15 @@ padding-bottom: 4rem;
   .links-ab,.links-ab2{
   text-decoration:none;
   font-size: 1rem;
-  color:rgb(30, 7, 112);
+  color:rgb(186, 186, 192);
   }
   .links-ab2{
-color:rgb(30, 7, 112);
+color:rgb(186, 186, 192);
   }
 
   .linkHeader,.h4border1{
     text-decoration: none;
-    color:rgb(30, 7, 112);
+    color:rgb(186, 186, 192);
   }
   footer{
     font-size: x-small;
@@ -180,7 +226,7 @@ color:rgb(30, 7, 112);
   .h4border{
   border-bottom: 1px solid grey;
   text-decoration: none;
-  color:rgb(9, 61, 173);
+  color:rgb(186, 186, 192);
   }
 
   /* <!-- Cards demo section CSS--> */
@@ -193,14 +239,14 @@ color:rgb(30, 7, 112);
   
 }
 .changecolorjs{
-  color: rgb(11, 127, 243);
+  color: #000080;
 }
 .card-header{
   height:4rem;
  
   }
 .backgroundcolorchange{
-  background: linear-gradient(0.25turn, #93b3ee, #f2f3f5, #72aef3);
+  background: linear-gradient(0.25turn, #5c72aa, #f2f3f5, #7382a8);
   }
 
   /* CArousel CSS */
@@ -260,6 +306,31 @@ margin: 2rem 0 10rem 2rem;
   font-size: 1.5rem;
 }
 
+.headerh1contact{
+  color: rgb(5, 4, 70);
+  font-size: 3rem;
+  text-align: center;
+  padding: 5rem;
+}
+iframe{
+  height: 90rem;        
+  width: 55rem;        
+  max-width: 100%;    
+  min-width: 150px;    
+  max-height: 500px;   
+  min-height: 100px;   
+  object-fit: cover;   
+}
+.introimgcontact{
+  height: 50rem;        
+  width: 56rem;        
+  max-width: 100%;    
+  min-width: 150px;    
+  max-height: 500px;   
+  min-height: 100px;   
+  
+}
+
 
 
 /* About page */
@@ -281,7 +352,7 @@ margin: 2rem 0 10rem 2rem;
   justify-content: space-evenly;
   gap:2rem 1rem;
   text-align: center;
-  background: linear-gradient(0.25turn, #93b3ee, #f2f3f5, #72aef3);
+  background: linear-gradient(0.25turn, #5c72aa, #f2f3f5, #5c72aa);
   height: auto;
   width: auto;
   box-shadow: 10px black;
@@ -417,30 +488,50 @@ margin: 2rem 0 10rem 2rem;
   
 }
 
+swiper-container {
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
 
-/* @MEDIA BREAK POINTS  */
+swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  max-width: 500px;
+}
 
-/* lARGE MONITORS
-@media(max-width:1660px) {
-  h2{
-  margin: 0 100px;
+swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.headerh1{
+  color: rgb(5, 4, 70);
+  font-size: 5rem;
   text-align: center;
+  padding-top: 9rem;
 }
 
-}
-/* MEDIUM SIZE MONITORS */
-/* @media(max-width:1189px){
-  .text{float: none;}
-} */
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 
-/* SMALL SIZE MONITORS */
-/* @media(max-width:740px){
- 
-  .carousel-img{
-  width: 400px;
-  height: 300px;
+  .im1,.im2 {
+    font-size: 1.9rem;
+    }
+
+    .myButton{
+      padding: 5px 20px;
+      font-size: 17px;
+    }
+
+    .endSectionChild1{
+      margin-top: 4rem;;
+      
+    }
+    .endSection2Child2{
+        margin-top: 4rem;;
+    }
+    .dev1 ,.dev2{
+      color: #f2f6f7;
+    }
 }
-.hi{
-  padding-left: 250px;
-} */
- 

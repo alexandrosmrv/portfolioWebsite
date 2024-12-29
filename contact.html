@@ -22,13 +22,13 @@
   </head>
   <body>
     <!-- navigation bar section -->
-    <nav class="navbar navbar-light" style="background-color: #e3f2fd;;" fixed-top>
+    <nav class="navbar navbar-dark" style="background-color: #2E3A59;" fixed-top>
       <div class="container-fluid">
         <a class="navbar-brand" src="./photos/portfolio-high-resolution-logo-transparent.png" href="/index.html">Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end" style="background-color: #e3f2fd;" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas offcanvas-end" style="background-color: #2E3A59;" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -47,7 +47,7 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
                   <li><a class="dropdown-item" href="contact.html">Contact</a></li>
-                  <li><a class="dropdown-item" href="repositories.html">Repositories</a></li>
+                  <li><a class="dropdown-item" href="repositories.html">Portfolio</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
@@ -63,32 +63,86 @@
         </div>
       </div>
     </nav>
+
+    <h1 class="headerh1contact">Contact Me</h1>
+    <!-- Intro Container1-->
+    <div class="introparent1">
+      <div class="introchild1">
+        <img class="introimg1" src="photos/myphoto.jpg" alt="random img">
+      </div>
+      <div class="introchild2">
+        <h1 class="introh1"> A few words about me</h1>
+        <p class="introp"><strong>Hi, I am Alex.</strong> 
+          <br>I began my journey when I took on an actual project
+          <br>to create Google Sites for my current company where I work. 
+          <br>This experience made me realize how much I enjoy 
+          <br>web development and sparked my desire to delve deeper 
+          <br>by learning coding and CMS programs, 
+          <br>with the goal of evolving to real-world projects. 
+          <br>I am currently searching for entry- to junior-level vacancies. 
+          <br>This portfolio showcases some of my skillset and imagination. 
+          
+          
+        </p>
+      </div>
+    </div>
+    
+    <!-- Intro Container2-->
+    <div class="introparent2">
+      <div class="introchild3">
+        <h1 class="introh1">Find me here</h1>
+            <p class="introp">📍 Location:
+              Petroupoli, Athens, Greece</p>
+      </div>
+      <div class="introchild4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12568.543497740411!2d23.664810519300197!3d38.043920249521335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1a3820d6948f5%3A0x400bd2ce2b97ac0!2zzqDOtc-Ez4HOv8-Nz4DOv867zrc!5e0!3m2!1sel!2sgr!4v1732867775188!5m2!1sel!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    
+    <!-- Intro Container3-->
+    <div class="introparent3">
+      <div class="introchild5">
+        <img class="introimgcontact" src="photos/contactimage.png" alt="random img">
+      </div>
+      <div class="introchild6">
+        <h1 class="introh1">Get in Touch</h1>
+        <p class="introp">📧 Email: alexandrosmavrozou@gmail.com
+          <br>📞 Phone: +30 694825.... Check my Cv
+          <br>🌐 Website:<a href="https://alexandrosmrv.github.io/portofolioWebsite/"> https://alexandrosmrv.github.io</p></a>
+      </div>
+    </div>
+    
+
 <!-- CONTACT FORM DETAILS -->
      <div class="contactContainer">
-      <h1 class="">Contact Us</h1>
+      <h1 class="">Contact me</h1>
     
         <div class="contactFormParent">
 
       <div class="contactChild1">
-        <form>
-          <label for="name"><h6>Name</h6></label><br>
-          <input type="text" id="name" name="name" required minlength="3" maxlength="40" size="31"/>
-        </form>
+
+      <form id="contactForm" >
+          <h6>Name</h6>
+          <label for="name"></label>
+          <input type="text" id="name" name="name" placeholder="">
       </div>
-      <div class="contactChild2">
-        <form>
-          <label for="email"><h6>E-Mail</h6></label><br>
-          <input type="email" id="email" name="name" pattern="./@example\.com" size="31" required />
-        </form>
-      </div>
+        <div class="contactChild2">
+          <h6>E-Mail</h6>
+          <label for="email"></label>
+          <input type="email" id="email" name="email" placeholder="">
+        
+        </div>
       <div class="contactChild3">
-            <label for="text"><h6>Your Message</h6></label><br>
-            <textarea id="textarea" name="textarea" rows="3" cols="33" maxlength="200">
-             </textarea>
+        <h6>Your Message</h6>
+        <label for="message"></label>
+        <textarea id="message" name="message" ></textarea>
+        
+         
     </div>
 
-    <div class="contactChild4">
-      <button id="submitButton" class="contactButton" onclick="theSubmitPress()">Submit</button>
+    <div class="contactChild4"> 
+      <button class="contactButton" type="submit">Submit</button>
+    </form>
     </div>
     </div>
   </div>
@@ -105,7 +159,7 @@
   <p><a class="links-ab2" target="_blank" href="https://www.linkedin.com/" ><i class="fa-brands fa-linkedin"></i> Linkedin</a></p>
   <p><a class="links-ab2" target="_blank" href="https://el-gr.facebook.com/"><i class="fa-brands fa-facebook"></i> Facebook</a></p>
   <p><a class="links-ab2" target="_blank" href="https://twitter.com/?lang=el"><i class="fa-brands fa-x-twitter"></i> twitter</a></p>   
-  <p><a class="links-ab2" target="_blank" href="https://gmail.com"><i class="fa-brands fa-instagram"></i> Instagram</a></p>
+  <p><a class="links-ab2" target="_blank" href="https://instagram.com"><i class="fa-brands fa-instagram"></i> Instagram</a></p>
 </div>
 
 <!-- Middle -->
@@ -114,7 +168,7 @@
 <p><a class="links-ab2"  href="./index.html" ><i class="fa-solid fa-house"></i> Home</a></p>
 <p><a class="links-ab2"  href="./about.html"><i class="fa-solid fa-address-card"></i> About</a></p>
 <p><a class="links-ab2"  href="./contact.html"><i class="fa-solid fa-address-book"></i> Contact</a></p>   
-<p><a class="links-ab2"  href="./repositories.html"><i class="fa-brands fa-github"></i> Repositories</a></p>
+<p><a class="links-ab2"  href="./repositories.html"><i class="fa-brands fa-github"></i> Portfolio</a></p>
 </div>
 
 <!-- Right -->

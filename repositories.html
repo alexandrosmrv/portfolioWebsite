@@ -22,13 +22,13 @@
 </head>
 <body>
      <!-- navigation bar section -->
-     <nav class="navbar navbar-light" style="background-color: #e3f2fd;;" fixed-top>
+     <nav class="navbar navbar-dark" style="background-color:#2E3A59;" fixed-top>
       <div class="container-fluid">
         <a class="navbar-brand" src="./photos/portfolio-high-resolution-logo-transparent.png" href="/index.html">Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end" style="background-color: #e3f2fd;" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas offcanvas-end" style="background-color: #2E3A59;" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -47,7 +47,7 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
                   <li><a class="dropdown-item" href="contact.html">Contact</a></li>
-                  <li><a class="dropdown-item" href="repositories.html">Repositories</a></li>
+                  <li><a class="dropdown-item" href="repositories.html">Portfolio</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
@@ -65,46 +65,68 @@
     </nav>
   
 
-  <!-- MIDLE PARALAX CONTAINER DEMO PROJECTS -->
-  <h1 class="repoh1">Other Repositories.</h1>
-  <div class="paralax">
     
-        <div class="paralaxParent">
-          <div class="paralax1" onclick="theLinkOpen()">
-              <img class="imgparalax" src="./photos/image002 a dev.jpg" alt="demo of my first projects">
-              <p>1st project</p>
-          </div>
-          <div class="paralax2" onclick="theLinkOpen1()">
-            <img class="imgparalax" src="./photos/Challenge.jpg" alt="demo of my 2nd projects">
-            <p>2nd project</p>
-          </div>
-          <div class="paralax3" onclick="theLinkOpen2()">
-            <img class="imgparalax" src="./photos/FOREST.jpg" alt="demo of my 3rd projects">
-            <p>3rd project</p>
-          </div>
-          <div class="paralax4" onclick="theLinkOpen3()">
-            <img class="imgparalax" src="./photos/iTINDOG.jpg" alt="demo of my 4th projects">
-            <p>4th project</p>
-          </div>
-          <div class="paralax5" onclick="theLinkOpen4()">
-            <img class="imgparalax" src="./photos/checklist.jpg" alt="demo of my  project">
-              <p>Single page app</p>
-          </div>
-          <div class="paralax6" onclick="theLinkOpen5()">
-            <img class="imgparalax" src="./photos/PAYROLL APP.jpg" alt="demo of my  project">
-              <p>Single page app #2</p>
-          </div>
-          <div class="paralax7" onclick="theLinkOpen6()">
-            <img class="imgparalax" src="./photos/C.V.jpg" alt="demo of my  project">
-              <p >C.V</p>
-          </div>
-          <div class="paralax8" onclick="theLinkOpen7()">
-            <img class="imgparalax" src="./photos/react proj.jpg" alt="demo of my  project">
-            <p>React repo</p>
-        </div>
-        </div>
-</div>
+<h1 class="headerh1">My Portfolio</h1>
+  <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+    slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+    coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
     
+    <swiper-slide>
+      <a href="https://alexandrosmrv.github.io/portofolioWebsite/">
+        <img src="photos/project_port1.jpg" />
+      </a>
+      <p>The code for all my projects has been personally authored by me.</p>
+            </swiper-slide>
+    <swiper-slide>
+      <a href="https://mavrozoumisportfolio.com/">
+        <img src="photos/project_port2.jpg" />
+      </a>
+      <p>Everyday learning, evolving, creating, debugging.</p>
+    </swiper-slide>
+    <swiper-slide>
+      <a href="https://alexandrosmrv.github.io/curriculum-vitae/">
+        <img src="photos/project_port3.jpg" />
+      </a>
+      <p>Always trying for the best outcome.</p>
+    </swiper-slide>
+    <swiper-slide>
+      <a href="https://alexandrosmrv.github.io/flex_grid/">
+        <img src="photos/project_port4.png" />
+      </a>
+      <p>Please spend some of your precious time to take a look around.</p>
+    </swiper-slide>
+    <swiper-slide>
+      <a href="https://alexandrosmrv.github.io/btstrap.jquery-demo/">
+        <img src="photos/project_port5.png" />
+      </a>
+        <p>I am still learning but i think i have a good foundation to begin with.</p>
+    </swiper-slide>
+    <swiper-slide>
+      <a href="https://alexandrosmrv.github.io/tind_vanillaJs/">
+        <img src="photos/project_port6.png.jpg" />
+      </a>
+      <p>Feel free to contact me anytime.</p>
+    </swiper-slide>
+    <swiper-slide>
+      <a href="https://alexandrosmrv.github.io/checkList_Spv/">
+        <img src="photos/project_port7.jpg" />
+      </a>
+      <p>Integer aliquet magna eget volutpat dapibus.</p>
+    </swiper-slide>
+    <swiper-slide>
+      <a href="https://alexandrosmrv.github.io/overtimecheck/">
+        <img src="photos/project_port8.jpg" />
+      </a>
+      <p>Sed vestibulum elit et lacus elementum vestibulum.</p>
+    </swiper-slide>
+    <swiper-slide>
+      <a href="https://alexandrosmrv.github.io/Demo./">
+        <img src="photos/project_port9.jpg" />
+      </a>
+      <p>Thank you for your time i appreciate it.</p>
+    </swiper-slide>
+  </swiper-container>
+
 
 <!-- footer section -->
 
@@ -115,7 +137,7 @@
   <p><a class="links-ab2" target="_blank" href="https://www.linkedin.com/" ><i class="fa-brands fa-linkedin"></i> Linkedin</a></p>
   <p><a class="links-ab2" target="_blank" href="https://el-gr.facebook.com/"><i class="fa-brands fa-facebook"></i> Facebook</a></p>
   <p><a class="links-ab2" target="_blank" href="https://twitter.com/?lang=el"><i class="fa-brands fa-x-twitter"></i> twitter</a></p>   
-  <p><a class="links-ab2" target="_blank" href="https://gmail.com"><i class="fa-brands fa-instagram"></i> Instagram</a></p>
+  <p><a class="links-ab2" target="_blank" href="https://instagram.com"><i class="fa-brands fa-instagram"></i> Instagram</a></p>
 </div>
 
 <!-- Middle -->
@@ -124,7 +146,7 @@
 <p><a class="links-ab2"  href="./index.html" ><i class="fa-solid fa-house"></i> Home</a></p>
 <p><a class="links-ab2"  href="./about.html"><i class="fa-solid fa-address-card"></i> About</a></p>
 <p><a class="links-ab2"  href="./contact.html"><i class="fa-solid fa-address-book"></i> Contact</a></p>   
-<p><a class="links-ab2"  href="./repositories.html"><i class="fa-brands fa-github"></i> Repositories</a></p>
+<p><a class="links-ab2"  href="./repositories.html"><i class="fa-brands fa-github"></i> Portfolio</a></p>
 </div>
 
 <!-- Right -->
@@ -140,6 +162,34 @@
   
 
 <footer>Designed and Developed by A.M @2023-2024</footer>
+<!-- Scripts Sweeper -->
+<script>
+  const swiper = new Swiper('.mySwiper', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    breakpoints: {
+      640: { slidesPerView: 1 },
+      768: { slidesPerView: 2 },
+      1024: { slidesPerView: 3 },
+    },
+  });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 <!-- Scripts jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 

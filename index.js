@@ -22,7 +22,7 @@ $(window).scroll(function() {
        }
    } else {
        // Actions for screens larger than 1024px wide
-       if(scrollHeight < 3100) {
+       if(scrollHeight < 3400) {
          $("#price").removeClass("backgroundcolorchange" ,1000);
        } else {
          $("#price").addClass("backgroundcolorchange" ,1000,)
@@ -32,10 +32,21 @@ $(window).scroll(function() {
 });
 
 // Navigation Bar
+$(".nav-item").on({
+   mouseenter: function () {
+     $(this).addClass("nav-itemjs");
+   },
+   mouseleave: function () {
+     $(this).removeClass("nav-itemjs");
+   }
+ });
+ 
 
-$(".nav-item").hover(function(){
-   $(this).toggleClass("nav-itemjs") //Adds-Removes Underline
-});
+
+
+// $(".nav-item").hover(function(){
+//    $(this).toggleClass("nav-itemjs") //Adds-Removes Underline
+// });
 $(".nav-item").on("click", function(){
    $(this).css("background-color","grey") //Adds a grey background on click 
 });
@@ -79,37 +90,39 @@ $(".hi").hover(function() {
 });
 // CONTACT FORM ON CLICK MESSAGE CONTACT PAGE
 
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+   event.preventDefault(); // Prevent the form from submitting
 
+   const name = document.getElementById('name').value.trim();
+   const email = document.getElementById('email').value.trim();
+   const message = document.getElementById('message').value.trim();
 
-function theSubmitPress(){
-   
-var theName = document.getElementById("name").value;
-var theEmail = document.getElementById("email").value;
-var theTextArea = document.getElementById("textarea").value;
-
-   if(theName==="" || theName===null){
-
-      alert("Please enter your Name") 
-      
-
-   }else if (theEmail==="" || theEmail===null){
-
-      alert("Please enter your E-mail")
-
-   }else if (theTextArea==="" || theTextArea===null ){
-
-      alert("Please type your message")
+   if (!name) {
+     alert('Please enter your name.');
+     return;
    }
-   else
-   {
-      alert
-      (`Thank you ${theName} 
-      for your message we will contact you as soon as 
-      possible at your email address ${theEmail}`)
-      
-      }  
-      
-}
+
+   if (!email) {
+     alert('Please enter your email.');
+     return;
+   }
+
+   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+   if (!emailRegex.test(email)) {
+     alert('Please enter a valid email address.');
+     return;
+   }
+
+   if (!message) {
+     alert('Please enter your message.');
+     return;
+   }
+
+   alert('Form submitted successfully!');
+   
+ });
+
+
 
 
 
