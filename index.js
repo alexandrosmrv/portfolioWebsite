@@ -1,4 +1,8 @@
 
+
+
+
+
 //ON SCROLL ADDS A CSS PROPERTY BACKGROUND on HOME PAGE ON SCROLL RESPONSIVE
 
 $(window).scroll(function() {
@@ -88,6 +92,19 @@ $(".hi").hover(function() {
 }, function(){
    $(this).removeClass("hellojs"); 
 });
+
+$(".dev1").hover(function(){
+   $(this).addClass("devjs");
+}, function(){
+   $(this).removeClass("devjs");
+});
+
+
+$(".dev2").hover(function(){
+   $(this).addClass("devjs");
+}, function(){
+   $(this).removeClass("devjs");
+});
 // CONTACT FORM ON CLICK MESSAGE CONTACT PAGE
 
 document.getElementById('contactForm').addEventListener('submit', function(event) {
@@ -122,23 +139,14 @@ document.getElementById('contactForm').addEventListener('submit', function(event
    
  });
 
-
+ 
 
 
 
 
 // P BLUE COLOR HEADER START
-$(".dev1").hover(function(){
-   $(this).addClass("devjs");
-}, function(){
-   $(this).removeClass("devjs");
-});
 
-$(".dev2").hover(function(){
-   $(this).addClass("devjs");
-}, function(){
-   $(this).removeClass("devjs");
-});
+
 
 // P BLUE COLOR HEADER END
 $(".changecolor").hover(function(){
