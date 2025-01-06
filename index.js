@@ -2,7 +2,6 @@
 
 
 
-
 //ON SCROLL ADDS A CSS PROPERTY BACKGROUND on HOME PAGE ON SCROLL RESPONSIVE
 
 $(window).scroll(function() {
@@ -11,14 +10,14 @@ $(window).scroll(function() {
   
    if(screenWidth < 767) {
        // Actions for screens smaller than 767px wide
-       if(scrollHeight < 4300) {
+       if(scrollHeight < 5100) {
          $("#price").removeClass("backgroundcolorchange" ,1000);      
        } else {
          $("#price").addClass("backgroundcolorchange", 1000, );
        }
    } else if(screenWidth >= 768 && screenWidth <= 1024) {
        // Actions for screens between 768px and 1024px wide
-       if(scrollHeight <4100) {
+       if(scrollHeight <5300) {
          $("#price").removeClass("backgroundcolorchange"  ,1000);
        } else {
          
@@ -26,7 +25,7 @@ $(window).scroll(function() {
        }
    } else {
        // Actions for screens larger than 1024px wide
-       if(scrollHeight < 3400) {
+       if(scrollHeight < 4200) {
          $("#price").removeClass("backgroundcolorchange" ,1000);
        } else {
          $("#price").addClass("backgroundcolorchange" ,1000,)
@@ -34,6 +33,11 @@ $(window).scroll(function() {
        }
    }
 });
+
+
+
+
+
 
 // Navigation Bar
 $(".nav-item").on({
@@ -165,56 +169,7 @@ $( ".h1-about" ).on( "click", function() {
      });
  });
 
- // ABOUT PAGE MODAL 
-//  variables
- var modal = document.getElementById("myModal");
- var modal1= document.getElementById("myModal1");
- var modal2= document.getElementById("myModal2");
- // Get the button that opens the modal
- var theModal = document.getElementById("testModal");
- var theModal1 = document.getElementById("testModal1");
- var theModal2 = document.getElementById("testModal2");
- // Get the <span> element that closes the modal
-
- var spanModal = document.getElementsByClassName("close")[0];
- var spanModal1 = document.getElementsByClassName("close1")[0];
- var spanModal2 = document.getElementsByClassName("close2")[0];
-
- // When the user clicks on the element, opens the modal
-
- theModal.onclick = function() {
-   modal.style.display = "block";
- }
- theModal1.onclick = function() {
-   modal1.style.display = "block";
- }
- theModal2.onclick = function() {
-   modal2.style.display = "block";
- }
  
- // When the user clicks on <span> (x), close the modal
- spanModal.onclick = function() {
-   modal.style.display = "none";
-}
-spanModal1.onclick = function() {
-   modal1.style.display = "none";
-}
-spanModal2.onclick = function() {
-   modal2.style.display = "none";
-}
- 
-//  When the user clicks anywhere outside of the modal, close it
- window.onclick = function(event) {
-   if (event.target == modal) {
-     modal.style.display = "none";
-   }
-   else if (event.target == modal1) {
-      modal1.style.display = "none";
-    }
-    else if (event.target == modal2) {
-      modal2.style.display = "none";
-    }
- }
 
 
  // open the links in Repositories page
@@ -267,7 +222,6 @@ $(document).ready(function() {
 //  $("#btnCont").on("click", function(){
 //    $(".footer-container").toggle(5000);
 //  });
-
 
 
 
